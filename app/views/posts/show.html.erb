@@ -1,13 +1,17 @@
-<h1 class="title">
-	<%= @post.title %>
-</h1>
+<div id="post_content">
 
-<p class="date">
-	submitted <%= time_ago_in_words(@post.created_at) %> ago
+	<h1 class="title">
+		<%= @post.title %>
+	</h1>
 
-	<%= link_to 'Delete', post_path(@post), method: :delete, data: { confirm: 'Are you sure?' } %>
-</p>
+	<p class="date">
+		submitted <%= time_ago_in_words(@post.created_at) %> ago
 
-<p class="body">
-	<%= @post.body %>
-</p>
+		<%= link_to 'Delete', post_path(@post), method: :delete, data: { confirm: 'Are you sure?' } %>
+	</p>
+
+	<p class="body">
+		<%= @post.body %>
+	</p>
+
+</div>
