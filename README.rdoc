@@ -34,3 +34,14 @@ See this Stack Overflow question for more info:
 http://stackoverflow.com/questions/30116966/execjsprogramerror-in-welcomeindex-typeerror-object-doesnt-support-this-pro
 
 If getting an ExecJS::RuntimeError make sure you have a Javascript Runtime installed on your system. Installing Node js is one way to do this.
+
+ExecJS also supports these runtimes:
+
+therubyracer - Google V8 embedded within Ruby
+
+therubyrhino - Mozilla Rhino embedded within JRuby
+
+Apple JavaScriptCore - Included with Mac OS X
+
+Microsoft Windows Script Host (JScript)
+
