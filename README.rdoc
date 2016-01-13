@@ -1,28 +1,36 @@
-== README
+Simple blog based on the following tutorial.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://www.youtube.com/watch?v=BI_VnnOLSKY
 
-Things you may want to cover:
+Rails version is 4.0.4 with Ruby 1.9.3.
 
-* Ruby version
+Install and Run
+---------------
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Git clone into directory of choice
+- CD into the root directory
+- Run bundle install
+- Run rake db:migrate
+- To launch type rails server / rails s 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Troubelshooting
+---------------
+
+If receiving the following error when tryin to run:
+
+ExecJS::ProgramError
+
+try changing line in app/views/layouts/application.html.erb
+
+<%= javascript_include_tag "applicaiton", "data-turbolinks-track" => true %>
+
+to
+
+<%= javascript_include_tag "default", "data-turbolinks-track" => true %>
+
+See this Stack Overflow question for more info:
+
+http://stackoverflow.com/questions/30116966/execjsprogramerror-in-welcomeindex-typeerror-object-doesnt-support-this-pro
+
+If getting an ExecJS::RuntimeError make sure you have a Javascript Runtime installed on your system. Installing Node js is one way to do this.
