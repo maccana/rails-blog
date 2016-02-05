@@ -1,8 +1,8 @@
-Simple blog based on the following tutorial.
+Simple blogging application based on the following tutorial.
 
 https://www.youtube.com/watch?v=BI_VnnOLSKY
 
-Rails version is 4.0.4 with Ruby 1.9.3.
+Rails 4.0.4 with Ruby 1.9.3.
 
 Install and Run
 ---------------
