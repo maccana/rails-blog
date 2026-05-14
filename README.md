@@ -33,7 +33,7 @@ See this Stack Overflow question for more info:
 
 http://stackoverflow.com/questions/30116966/gitexecjsprogramerror-in-welcomeindex-typeerror-object-doesnt-support-this-pro
 
-If getting an ExecJS::RuntimeError make sure you have a Javascript Runtime installed on your system. Installing Node js is one way to do this.
+If you get an ExecJS::RuntimeError make sure you have a Javascript Runtime installed on your system. Installing Node js is one way to do this.
 
 ExecJS also supports these runtimes:
 
