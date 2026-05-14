@@ -1,4 +1,4 @@
-Simple blogging application based on the following tutorial.
+Simple Ruby on Rails blogging application based on the following tutorial.
 
 https://www.youtube.com/watch?v=BI_VnnOLSKY
 
