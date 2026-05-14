@@ -17,7 +17,7 @@ Install and Run
 Troubelshooting
 ---------------
 
-If receiving the following error when tryin to run:
+If you receive the following error when tryin to run:
 
 ExecJS::ProgramError
 
@@ -31,7 +31,7 @@ to
 
 See this Stack Overflow question for more info:
 
-http://stackoverflow.com/questions/30116966/execjsprogramerror-in-welcomeindex-typeerror-object-doesnt-support-this-pro
+http://stackoverflow.com/questions/30116966/gitexecjsprogramerror-in-welcomeindex-typeerror-object-doesnt-support-this-pro
 
 If getting an ExecJS::RuntimeError make sure you have a Javascript Runtime installed on your system. Installing Node js is one way to do this.
 
